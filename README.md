@@ -15,13 +15,15 @@ Here, we will systematically explore object-oriented design principles, various 
 
 ## 📋 Learning & Implementation Checklist
 
-### 1. Object-Oriented Design Principles
-- [ ] SOLID Principles
-  - [ ] Single Responsibility Principle (SRP)
-  - [ ] Open/Closed Principle (OCP)
-  - [ ] Liskov Substitution Principle (LSP)
-  - [ ] Interface Segregation Principle (ISP)
-  - [ ] Dependency Inversion Principle (DIP)
+### 1. Fundamentals & Object-Oriented Design Principles
+- [x] OOPS Basics (Encapsulation, Abstraction, Inheritance)
+- [x] UML Basics
+- [x] SOLID Principles
+  - [x] Single Responsibility Principle (SRP)
+  - [x] Open/Closed Principle (OCP)
+  - [x] Liskov Substitution Principle (LSP)
+  - [x] Interface Segregation Principle (ISP)
+  - [x] Dependency Inversion Principle (DIP)
 
 ### 2. Design Patterns (GoF)
 
