@@ -1,0 +1,12 @@
+SOLID -> 5 Important Rules for writing good object-oriented code
+easy to understand
+easy to modify
+easy to maintain
+cleaner and professional
+
+S-> Single Responsibility
+O-> Open/Closed Responsibility
+L-> Liskov Substitution Principle
+I-> Interface Segregation
+D-> Dependency Inversion
+

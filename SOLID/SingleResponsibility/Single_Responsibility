@@ -1,0 +1,11 @@
+Single :
+A class should have only one reason to change , meaning it should do only 1 job and 1 responsibility
+1 job and 1 responsibility
+Each Class should focus on one task only
+
+Suppose A User should only handle user-related data , while DB ops should be handled by separate UserRepository
+
+Bad Example
+
+User Class - get_user_info() , is_adult() , save_to_db (shouldn't be here)
+UserRepo - save_to_db()

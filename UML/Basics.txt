@@ -1,0 +1,77 @@
+UML -> Unified Modeling Language
+
+1. Visualization -> blueprint , how system is connected and how they work together
+2. Documentation -> Easy to expand
+3. Communication -> Common Language for Designers , Developers and Teams
+4. Standardization -> Universally Accepted Standard
+
+Basic Elements
+
+Class
+Interface
+Object
+Association -> connection b/w two classes
+Inheritance -> is-a relationship
+Composition -> strong relationship
+Aggregation -> weak relationship
+
+Format:
+----------
+Class Name
+---
+Attributes
+---
+Methods
+----------
+
++ -> Public
+- -> Private
+# -> Protected
+~ -> Default visibility 
+By default Attributes are Public and Methods are Private
+
+
+##Association
+How two or more classes object interact with each other.
+Class A knows about Class B can use it
+For example for Teacher class
+def teach(self , s:"Student") -> Teacher class uses Student Object
+Teacher -> Student
+
+##Aggregation
+has-a relationship
+weak relationship
+Class A has Class B , but B can exist without A
+Suppose Department class contains multiple object of Student Class
+A Department d1 , can have multiple students (s1...sn)
+d1 acts like container --- and the contained object student can survive independently without department
+Department <>--- Student
+
+##Composition
+strong has-a relationship
+One class owns object of Another class
+Container object is destroyed then contained objects are also destroyed
+Class A owns Class B completely , if A dies , B also dies
+For Example A Car Class has Engine Class object
+If Car object is deleted , Engine object will be destroyed
+Car <*>--- Engine
+
+##Inheritance
+is-a relationship
+Child and parent Class
+Dog is Child Class of Animal(Parent Class). It inherits all properties of Animal
+Dog ---|> Animal
+
+##Dependency
+weak relationship
+When one class temporarily uses another Class
+Class A uses Class B for a short time , then forgets about it
+Suppose we Document Class and Printer Class
+Document has objects d1,d2,d3 .. and Printer has method that takes Document object
+It basically prints the document by getting the parameter
+Printer doesn't store the document
+Document still exists independently
+Printer - - - > Document
+
+##Realization
+A class implements the methods defined by an interface ( contract )

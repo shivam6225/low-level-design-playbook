@@ -1,0 +1,8 @@
+Entities ( classes , modules , functions )
+-open for extension -> add new feature
+-closed for modification -> don't change behavior of existing code
+
+Should we able to add new feature easily
+Don't change existing working code
+
+For Example , Adding new payment methods (CC, UPI , PayPal) without modifying the existing payment code

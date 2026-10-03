@@ -1,0 +1,23 @@
+Object of Parent Class should be replaceable with objects of Child class without breaking code
+
+For Example :
+
+Bird(ABC)
+   -eat()
+   -fly()
+
+Sparrow(Bird)
+   -eat()
+   -fly()
+
+Penquin(Bird)
+   -eat()
+   -fly() -> this will not work
+
+Hence the design is not Optimal and Child can't substitute for Parent Class
+
+Child class is-a Parent class -> Child should work exactly like Parent
+Child should not break behavior of Paren class
+
+No Class should be forced to implement methods which it doesn't use
+Split large interfaces into smaller , more specific ones
