@@ -1,0 +1,10 @@
+Ensures that classes are not forced to implement methods that they don't need
+
+Break large , general-purpose interfaces into smaller , more specific ones
+
+Benefits:
+    Maintainability
+    Flexibility
+    Testability
+
+Classes should only depend on the methods that they actually use

@@ -1,0 +1,16 @@
+High level modules should not depend on low level modules
+-> they should depend on Interface ( abstraction)
+
+High level -> business logic
+low level -> db modules etc..
+
+
+For Example:
+
+High Level Notification Service Class
+two low level service Email and SMS service
+
+That means High level service is dependent on the Email and SMS service
+
+So basically email and SMS should be connected to abstraction
+which is connected to Notification Service
