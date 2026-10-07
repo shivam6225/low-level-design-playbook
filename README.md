@@ -47,15 +47,15 @@ Here, we will systematically explore object-oriented design principles, various 
 
 #### ⚙️ Behavioral Patterns
 *Patterns that identify and streamline common communication patterns between objects.*
-- [ ] Strategy
-- [ ] Observer
-- [ ] Command
+- [x] Strategy
+- [x] Observer
+- [x] Command
 - [ ] State
 - [ ] Chain of Responsibility
-- [ ] Iterator
+- [x] Iterator
 - [ ] Mediator
-- [ ] Memento
-- [ ] Template Method
+- [x] Memento
+- [x] Template Method
 - [ ] Visitor
 
 ### 3. Real-World Code Examples & Case Studies
