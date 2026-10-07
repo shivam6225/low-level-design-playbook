@@ -1,0 +1,26 @@
+Suppose you have Restaurant Management System
+Customer can order different food items
+
+The waiter class would directly call the Chef's cooking methods
+This creates tight coupling between the Waiter and Chef
+
+Waiter would need to know
+-> What items the chef can cook
+-> Which method to call for which item
+-> how to handle each specific food type
+
+Solve it using Command Pattern:
+
+Create a Command Interface -> Order
+Order will be abstract class , which could have many child classes like Burger , Pizza , Pasta etc...
+At new change in Chef items , just need to add new class of child class Order (Command Interface)
+They are Command Concrete classes
+
+Command Pattern Structure:
+Command(Order)
+Invoker(Waiter)
+Receiver(Chef)
+
+BurgerOrder ----|> Order
+Chef ----<> BurgerOrder
+Waiter ----> Order 

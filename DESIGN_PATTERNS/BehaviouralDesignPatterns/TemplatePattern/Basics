@@ -1,0 +1,25 @@
+Imagine you are building a system that reads data from different file types
+like CSV , XML and JSON
+every reader has -> open the file , read the content , close the file
+
+if we don't use template pattern , we will end up writing the same opening and closing logic over and
+over again in each file reader class
+
+
+Basically open() and close() can be called as templates
+and the parse() -> plugin which varies between the type
+
+Problems:
+Repeated Code
+Hard to Maintain -> if you want to modify logic of open and file , you modify every everywhere
+It violates
+DRY (Don't Repeat Yourself)
+
+
+Create AbstractClass
+template() -> Template Method : open() parse() close()  -> the way how template for parse is done
+open()
+close()
+parse() -> abstract method -> change for each file type class
+
+CSVParser -----|> Data (Inherit)

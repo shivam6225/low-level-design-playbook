@@ -1,0 +1,20 @@
+VVImp
+
+Imagine you are working with data structure like arrays , list , trees
+and you want to go through each element one by one
+If you don't use iterator pattern , anyone knowing collection must know its internal organization
+Each type of collection would need its own unique way to loop through items
+
+Iterator Pattern gives you standard way to loop through any collection while keeping its internal organization hidden
+Every collection provide same interface for accessing items one by one
+
+Main Components:
+-> iterator has_next and next
+-> Collection
+
+
+Benefits
+Clean Separation -> logic remain separate
+Consistent Interface
+Simple Client Code
+Flexible Iteration -> flexible , backward or filtered

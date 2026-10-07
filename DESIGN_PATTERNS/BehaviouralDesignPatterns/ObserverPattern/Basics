@@ -1,0 +1,27 @@
+Suppose you have weather station that measures temperature
+Multiple Devices that need to show the temperature
+
+Basically every device should reflect the same temperature
+
+All these Devices are observer
+
+Observe and Update (Loose Coupling)
+
+Without Observer:
+Tightly coupled
+1. Need to know about every single device
+2. Adding new device means changing code
+3. Removing device means changing code
+4. It depends on specific types of device
+
+
+Benefits:
+Loose Coupling
+Easy to Scale
+Flexible at Runtime
+
+Applications:
+Event Listeners in Apps
+Stock Price Tracking
+News Apps and Blogs
+Social Media Updates

@@ -1,0 +1,11 @@
+Suppose you have app like Flipkart or Amazon
+
+Customers can get different kind of discount ( Diwali Sale , Student Discount , First order etc..)
+
+With every Discount we modify the class
+Too many if-else statements
+Hard to test each discount separately
+Violates Open/Closed Principle
+Too many responsibilities
+Hard to extend
+Messy code

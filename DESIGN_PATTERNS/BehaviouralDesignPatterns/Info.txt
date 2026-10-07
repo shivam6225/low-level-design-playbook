@@ -1,0 +1,12 @@
+Benefits
+
+1. How objects talk to each other and work together
+2. How objects should communicate and behave with one another
+3. Define communication rule
+4. Loosely connected code
+
+
+Applications:
+1. Interaction between objects
+2. Managing State Transition
+3. Communicate Efficiently
