@@ -50,10 +50,10 @@ Here, we will systematically explore object-oriented design principles, various 
 - [x] Strategy
 - [x] Observer
 - [x] Command
-- [ ] State
+- [x] State
 - [ ] Chain of Responsibility
 - [x] Iterator
-- [ ] Mediator
+- [x] Mediator
 - [x] Memento
 - [x] Template Method
 - [ ] Visitor
