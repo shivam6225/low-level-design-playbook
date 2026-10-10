@@ -29,9 +29,9 @@ Here, we will systematically explore object-oriented design principles, various 
 
 #### 🛠️ Creational Patterns
 *Patterns that deal with object creation mechanisms, optimizing how objects are instantiated.*
-- [ ] Singleton
-- [ ] Factory Method
-- [ ] Abstract Factory
+- [x] Singleton
+- [x] Factory Method
+- [x] Abstract Factory
 - [ ] Builder
 - [ ] Prototype
 
