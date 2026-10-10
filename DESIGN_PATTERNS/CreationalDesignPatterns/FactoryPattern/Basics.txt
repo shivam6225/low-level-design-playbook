@@ -1,0 +1,28 @@
+Suppose you are building food ordering app
+Customer can order different types of meals Pizaa , Burger,Pasta
+You might create separate classes for each food type and create object like this
+pizza = Pizza()
+burger = Burger()
+pasta = Pasta()
+
+But as restaurant grows , you keep adding more objects
+-- Code becomes messy
+-- creation logic becomes more complex
+
+Problems:
+--Tightly Coupled
+--Violates Open/Closed Principle (you modify at every addition)
+
+Use factory pattern -> only work is to create object
+Instead of creating object directly by code , we hand over responsibility to Factory
+
+Factory Class (FoodFactory) -> to create different items based on what Customer Ordered
+Decoupling -> Restaurant Service no longer needs to know how Food objects are created , it assigns tasks to Factory
+
+Flexibility -> adding a new food type doesn't affect Restaurant Service
+
+Use case:
+
+User Interface Libraries : factory decide which component to make based on OS in runtime
+Database Connections : which db connector to use (oracle , mongoDB etc..)
+File Export Tools : factory decides which file generator to create based on user selection

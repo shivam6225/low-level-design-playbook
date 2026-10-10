@@ -1,0 +1,10 @@
+Advanced level of Abstract Factory Pattern
+
+Imagine you have different Cuisine in Food Service
+Each cuisine has their own complete meal
+
+that means you will need to create many objects for each case
+Code will be tightly connected to specific dish
+
+
+We use Abstract Factory pattern to solve this

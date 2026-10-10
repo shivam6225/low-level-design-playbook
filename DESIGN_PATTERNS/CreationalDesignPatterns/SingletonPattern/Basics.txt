@@ -1,0 +1,14 @@
+For certain connections like database connections, application logs or configuration settings
+You need to make sure only ONE object of the class exists throughout entire application
+
+If not :
+Conflicting Data
+Wasted Resources
+
+for example
+l1=logger()
+l2=logger()
+l3=logger()
+
+No matter how many reference object variable names , all should point to the same object
+We don't need multiple logger type
