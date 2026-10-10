@@ -1,0 +1,31 @@
+Suppose we are building Airport System
+Where multiple airplane has to co-ordinate for landing and takeoff
+
+If each airplane communicates directly with every other airplane:
+-to check if runway is clear
+-system becomes extremely complicates
+-each pilot needs to track all other planes
+-mess of communication lines and dependencies
+
+Suppose Airplane n = 5
+total number of connections = n^2 ( way too much)
+
+Solution:
+
+Introduce mediator
+Air Traffic Control Tower
+
+Airplanes -> Colleagues
+
+This will eliminate the need for each plane to know about or track all other planes
+
+Benefits:
+Reduces Complexity
+Loose Coupling
+Single Responsibility
+Centralized Control
+
+Use Cases:
+Air Traffic Control
+GUI Component Co-ordination
+Workflow System -> co-ordinate tasks across different teams or departments

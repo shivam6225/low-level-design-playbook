@@ -1,0 +1,32 @@
+Suppose you are making Direction Service
+--> Implement ETA
+--> Implement Left/Right etc.. route directions
+
+Direction Service will depend on
+--Walking , Cycling , Car , Train
+These are nothing but State - Transport
+They heavily depend on State
+
+Problems:
+Messy if-else chains
+Tight Dependencies
+More Transport Mode means
+---> difficult to read and update
+---> breaks the open/closed principle
+
+Direction Service -> Context (Which keeps track)
+
+State -> Interface that defines the method all states should have
+
+Concrete State -> Actual State Classes from Interface
+
+
+Examples:
+Music Player
+--Play , Pause , Stop
+Order Tracking
+ATM
+--Idle,card inserted , pin verify
+Traffic Light System
+-- red , yellow , green
+
